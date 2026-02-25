@@ -9,7 +9,7 @@ const Navbar = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a
-                class="nav-link link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                className="nav-link link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
                 href="#"
               >
                 About
