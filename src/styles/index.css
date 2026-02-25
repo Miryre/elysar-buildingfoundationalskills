@@ -1,11 +1,29 @@
-/* 
+.custom-gradient-bg {
+  background: linear-gradient(
+    to bottom,
+    #01198e,
+    #13014b,
+    rgb(0, 0, 0)
+  ); /* Example gradient colors */
+  min-height: 100vh; /* Ensures it covers the entire browser height */
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.navbar-custom-black {
+  background-color: #000000 !important;
+}
 
-*/
+.nav-link-name {
+  color: hotpink;
+}
+
+.nav-link {
+  color: hotpink;
+  text-shadow: none;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: blueviolet;
+  text-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
+}

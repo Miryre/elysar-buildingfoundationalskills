@@ -1,12 +1,31 @@
+import heroImg from "../../img/Portfolio-Heroaf.png";
+
 const Hero = () => {
   return (
-    <div className="p-4 mb-4 bg-dark text-light vh-100">
+    <div
+      style={{
+        backgroundImage: `url(${heroImg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "100vh",
+      }}
+    >
       <div className="container-fluid py-5">
-        <h1 className=" display-3 fw-bold text-center">Welcome to My Page</h1>
+        <h1
+          className="display-3 fw-bold text-center text-white"
+          style={{ textShadow: "2px 2px 8px rgba(0,0,0,0.8)" }}
+        >
+          Welcome to My Page
+        </h1>
       </div>
 
       <div className="container my-5">
-        <h1 className=" p-1 text-center">Featured Projects</h1>
+        <h1
+          className="p-1 text-center text-white"
+          style={{ textShadow: "2px 2px 8px rgba(0,0,0,0.8)" }}
+        >
+          Featured Projects
+        </h1>
         <div className="row g-3">
           {/*Card One*/}
           <div className="col-md-6">
