@@ -1,12 +1,13 @@
 const Hero = () => {
   return (
-    <div className="p-5 mb-4 bg-dark text-light vh-100">
+    <div className="p-4 mb-4 bg-dark text-light vh-100">
       <div className="container-fluid py-5">
         <h1 className=" display-3 fw-bold text-center">Welcome to My Page</h1>
       </div>
 
       <div className="container my-5">
-        <div className="row g-2">
+        <h1 className=" p-1 text-center">Featured Projects</h1>
+        <div className="row g-3">
           {/*Card One*/}
           <div className="col-md-6">
             <div className="card">
