@@ -8,6 +8,10 @@
   min-height: 100vh; /* Ensures it covers the entire browser height */
 }
 
+.navbar-custom-black {
+  background-color: #000000 !important;
+}
+
 .nav-link-name {
   color: hotpink;
 }
@@ -20,6 +24,6 @@
 
 .nav-link:hover,
 .nav-link:focus {
-  color: aquamarine;
+  color: blueviolet;
   text-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
 }
