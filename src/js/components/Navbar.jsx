@@ -1,19 +1,21 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark navbar-custom-black">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand nav-link-name" href="#">
+        <Link className="navbar-brand nav-link-name" to="/">
           Elizabeth Reynolds
-        </a>
+        </Link>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link link-underline link-underline-opacity-0 link-underline-opacity-75-hover nav-link"
-                href="#"
+                to="/about"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a
